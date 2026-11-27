@@ -1,0 +1,59 @@
+% Projeto para Overleaf. Documento principal: main.tex. Compilador: pdfLaTeX.
+% A imagem logo.png foi extraída do cabeçalho do enunciado da avaliação.
+\documentclass[12pt,oneside,a4paper,brazil]{abntex2}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue,pdftitle={Ficha de fundamentação científica -- Tema 5},
+  pdfauthor={Thiago Heleno, Enzo Baldinotti e Luisa Souza Monteiro}}
+\setlrmarginsandblock{3cm}{2cm}{*}
+\setulmarginsandblock{3cm}{2cm}{*}
+\checkandfixthelayout
+\pagestyle{empty}
+\newcommand{\bloco}[1]{\par\addvspace{6pt}\noindent{\sffamily\bfseries #1}\par\nobreak}
+\begin{document}
+\selectlanguage{brazil}
+\SingleSpacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+\frenchspacing
+\begin{minipage}[c]{.20\linewidth}
+  \includegraphics[width=2.7cm]{logo.png}
+\end{minipage}\hfill
+\begin{minipage}[c]{.77\linewidth}
+  \textbf{Universidade Federal de São Paulo}\\
+  Instituto de Ciência e Tecnologia -- Campus São José dos Campos\\
+  Mudança de Clima e Sociedade \enspace$\cdot$\enspace Turma Integral
+\end{minipage}
+\par\vspace{5pt}
+{\centering\Large\bfseries Ficha de fundamentação científica\par}
+\vspace{3pt}
+\textbf{Eixo II} -- Economia, consumo e sociedade\\
+\textbf{Tema 5} -- Se conhecemos as causas das mudanças climáticas há décadas, por que as emissões globais continuam tão elevadas?\\
+\textbf{Integrantes:} Thiago Heleno, Enzo Baldinotti e Luisa Souza Monteiro.
+
+\bloco{Principais conclusões}
+\textbf{1. Produção e transporte.} De 2010 a 2019, a expansão da atividade econômica mundial gerou mais CO\textsubscript{2} fóssil e industrial do que se evitou com ganhos de eficiência e energia menos poluente. A frota do carrossel ilustra esse efeito com dados hipotéticos (IPCC, 2022, B.2).
+
+\textbf{2. Incentivos econômicos.} Em 2024, o apoio público ao carvão, petróleo e gás chegou a cerca de US\$~920 bilhões. A OCDE e a Agência Internacional de Energia estimaram US\$~916,3 bilhões. Uma reforma pode direcionar recursos às famílias mais afetadas (PNUMA, 2026, fig.~5.7; OCDE, 2025, cap.~2; IPCC, 2022, E.4).
+
+\textbf{3. Consumo desigual.} De cada 100 famílias, as 10 que mais emitem por pessoa respondem por 34\% a 45\% das emissões do consumo familiar mundial. As 50 que menos emitem por pessoa somam 13\% a 15\%. As faixas reúnem estimativas para 2010 e 2013 (IPCC, 2022, B.3.4).
+
+\bloco{Evidências e limites de interpretação}
+O IPCC (1990; 2023, A.1) explica como as emissões humanas intensificam o efeito estufa e atribui o aquecimento observado às atividades humanas. Segundo o PNUMA (2026, fig.~ES.1), as emissões globais líquidas passaram de 37,9 bilhões de toneladas de CO\textsubscript{2} equivalente em 1990 para $58{,}4 \pm 5{,}5$ bilhões em 2025. A alta em 35 anos é clara. A incerteza impede determinar se houve alta ou queda de 2024 para 2025.
+
+No transporte, substituir viagens de carro por ônibus pode reduzir emissões (\textit{mitigação}). O benefício depende do combustível, da ocupação e das viagens substituídas. A sombra no ponto reduz a exposição ao calor (\textit{adaptação}) (IPCC, 2022, C.8 e C.10; 2023, C.3).
+
+\bloco{Referências}
+{\small
+IPCC. \href{https://www.ipcc.ch/site/assets/uploads/2018/05/ipcc_90_92_assessments_far_wg_I_spm.pdf}{\textit{Scientific Assessment of Climate Change}}. Grupo I, 1990.\par
+IPCC. \href{https://www.ipcc.ch/report/ar6/wg3/chapter/summary-for-policymakers/}{\textit{Climate Change 2022: Mitigation of Climate Change}}. Grupo III, 2022.\par
+IPCC. \href{https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/}{\textit{Climate Change 2023: Synthesis Report}}. 2023.\par
+PNUMA. \href{https://brasil.un.org/sites/default/files/2026-10/Emissions-Gap-Report-2026.pdf}{\textit{Emissions Gap Report 2026: The Point of Return}}. 2026.\par
+OCDE. \href{https://doi.org/10.1787/6fff0cb7-en}{\textit{OECD Inventory of Support Measures for Fossil Fuels 2025: Policy Trends}}. 2025.\par}
+\vspace{4pt}
+{\small\textbf{Uso de IA.} Utilizamos o ChatGPT para localizar fontes, organizar o roteiro, revisar textos e dados, diagramar a ficha em LaTeX e criar os gráficos e as ilustrações do carrossel.\par}
+\end{document}
