@@ -50,8 +50,3 @@ Os PNGs de `output/instagram/` têm **1080 × 1350 pixels**. Os números nos nom
 4. Use **Download PDF** para baixar a versão compilada. Se atualizar o material no repositório, atualize também o PDF da ficha e o ZIP com os dois arquivos-fonte.
 
 Para um projeto já aberto no Overleaf, envie `main.tex` e `logo.png` separadamente usando o botão de upload da lista de arquivos. [Documentação do Overleaf](https://docs.overleaf.com/managing-projects-and-files/uploading-a-project)
-
-## Como usar os materiais
-
-- **Google Classroom** — envie o PDF do carrossel e o PDF da ficha como dois arquivos separados. A data de entrega indicada no enunciado é **7 de dezembro de 2026**.
-- **Instagram** — para montar a publicação, selecione os seis PNGs na sequência de `01` a `06`.
